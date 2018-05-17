@@ -8,6 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/linearLayout" />
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
@@ -16,7 +17,8 @@
         android:background="@android:color/white"
         android:orientation="horizontal"
         android:paddingBottom="4dp"
-        android:paddingTop="4dp">
+        android:paddingTop="4dp"
+        android:baselineAligned="false">
 
         <RelativeLayout
             android:id="@+id/home_layout_view"
@@ -70,8 +72,6 @@
 
         </RelativeLayout>
 
-
-        -
 
         <RelativeLayout
             android:id="@+id/message_layout_view"

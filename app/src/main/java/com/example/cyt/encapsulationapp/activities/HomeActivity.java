@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+
 import com.example.cyt.encapsulationapp.R;
 import com.example.cyt.encapsulationapp.base.BaseActivity;
 import com.example.cyt.encapsulationapp.fragment.HomeFragment;
